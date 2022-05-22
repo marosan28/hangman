@@ -8,3 +8,20 @@ Hangman is an interactive game made using Python. User goal is to guess the word
 
 -----
 ![App Screenshot](wireframes/images/responsive.jpg)
+## Main Features
+- __The title__
+
+    - Immediatly after the app is loaded, the User is greeted with a "hangman" logo.
+    - The logo was made using [Pyfiglet](https://pypi.org/project/pyfiglet/0.7/)
+
+![App Screenshot](wireframes/images/logo.jpg)
+
+- __Name input__
+
+  - The user gets asked to input his/hers name
+
+![App Screenshot](wireframes/images/name.jpg)
+
+  - After the name has been submitted the User gets a personal greeting and basic rules of the game
+  
+![App Screenshot](wireframes/images/name-2.jpg)
