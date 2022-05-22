@@ -30,11 +30,16 @@ def start():
     sleep(1.6)
     print("=================================================================")
     sleep(2)
-    print("Please press ENTER to start")
+    print("Please press ENTER after every entry")
 
 
 def pick_word():
     return random_word.lower()
+
+
+'''
+Function printing guessed letters/underscores with the length of the word
+'''
 
 
 def guessed_word():
@@ -48,8 +53,41 @@ def guessed_word():
     print("")
 
 
+def one_character():
+    global character
+    right_character = False
+
+    while right_character is False and tries > 0:
+        character = input("Please enter a letter: ").lower()
+        if character in right_characters or character in wrong_characters:
+            print("You have already guessed the letter " + character)
+        elif character.isalpha():
+            if len(character) > 1 or len(character) <= 0:
+                print("Letter can only be 1 character long!")
+            else:
+                right_character = True
+        else:
+            print("Oops! That's not a valid letter. Try again!")
+    return character
+
+# Function appends letters to wrong, changing number of tries.
+
+
+def guess_character():
+    global tries
+    character = one_character()
+    if character in random_word:
+        right_characters.append(character)
+    else:
+        wrong_characters.append(character)
+        tries -= 1
+
+
 def main():
     start()
+    guessed_word()
+    one_character()
+    guess_character()
 
 
 if __name__ == '__main__':
