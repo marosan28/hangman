@@ -16,12 +16,34 @@ Hangman is an interactive game made using Python. User goal is to guess the word
 
 ![App Screenshot](wireframes/images/logo.jpg)
 
-- __Name input__
+- __Name Input__
 
   - The user gets asked to input his/hers name
 
 ![App Screenshot](wireframes/images/name.jpg)
 
-  - After the name has been submitted the User gets a personal greeting and basic rules of the game
+  - After the name has been submitted, User gets a personal greeting and basic rules of the game.
   
 ![App Screenshot](wireframes/images/name-2.jpg)
+
+- __The Gameplay__
+
+ - User gets presented with a display of a "hanger" and underscores. Each uncerscore represents a letter from a word. User is then asked to make a guess of the word.
+ - User can only input letters from (a-z), every other character will not be accepted as a valid input.
+ - All characters are automatically tranformed to lowercase letters as Python compares strings based on their ASCII or Unicode  code points. This is to avoid confusion and make the game run without significant issues.
+- If a User guesses the letter, the underscore is automatically replaced by the letter.
+
+ ![App Screenshot](wireframes/images/enter-a-letter.jpg)
+
+
+ - When a User makes an incorrect guess the guessed letter is being shown on the screen together with a body part of a hangman being drawn on. The guessed letter on screen makes it easier to follow the attempts you made. The user cannot make the same guess twice.
+
+ ![App Screenshot](wireframes/images/wrong-letter.jpg)
+
+
+
+
+
+
+
+
