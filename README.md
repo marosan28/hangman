@@ -60,6 +60,10 @@ This app has been tested manually.
 
 ![App Screenshot](wireframes/images/entered-number.jpg)
 
+- If a User enters more than one character he gets a warning that a letter can only contain one character.
+
+![App Screenshot](wireframes/images/more-characters.jpg)
+
 
 
 
