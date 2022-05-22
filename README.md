@@ -41,9 +41,23 @@ Hangman is an interactive game made using Python. User goal is to guess the word
  ![App Screenshot](wireframes/images/wrong-letter.jpg)
  ![App Screenshot](wireframes/images/guessed-letter.jpg)
 
-- If User doesn't make a valid the "You lose" message is displayed and the whole hangman is drawn.
+- If User doesn't make a valid guess, the "You lose" message is displayed and the whole hangman is drawn.
 
  ![App Screenshot](wireframes/images/not-guessed.jpg)
+
+- If the User makes a valid guess, the "You win" message displays at the end.
+ ![App Screenshot](wireframes/images/guessed-word.jpg)
+
+ - __Flowchart__
+
+  - The flowchart for the game.
+![App Screenshot](wireframes/images/flow-chart.jpg)
+
+
+
+
+
+
 
 
 
