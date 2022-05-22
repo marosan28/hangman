@@ -36,7 +36,7 @@ Hangman is an interactive game made using Python. User goal is to guess the word
  ![App Screenshot](wireframes/images/enter-a-letter.jpg)
 
 
- - When a User makes an incorrect guess the guessed letter is being shown on the screen together with a body part of a hangman being drawn on. The guessed letter on screen makes it easier to follow the attempts you made. The user cannot make the same guess twice.
+ - When a User makes an incorrect guess the guessed letter is being shown on the screen together with a body part of a hangman being drawn on. The guessed letter on screen makes it easier to follow the attempts the User has made. The user cannot make the same guess twice.
 
  ![App Screenshot](wireframes/images/wrong-letter.jpg)
 
