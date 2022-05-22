@@ -64,6 +64,40 @@ This app has been tested manually.
 
 ![App Screenshot](wireframes/images/more-characters.jpg)
 
+- User cannot enter the same character twice.
+
+![App Screenshot](wireframes/images/already-guessed.jpg)
+
+## Validator Testing
+
+* This code passes the PEP8 online Python Validator. 
+
+    ![image of PEP8 validator results](wireframes/images/pep-8-validator.jpg)
+
+## Technologies Used
+
+### Frameworks, Libraries & Programs Used
+
+1. [Python](https://www.python.org/)
+    - Python was the program used for the whole project.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Flowchart](https://miro.com/app/dashboard/)
+    - Miro was used to create the flowchart during the design process.
+1. [Heroku](https://dashboard.heroku.com/apps)
+    - Heroku was used to deploy the app alongside github.
+
+## Libraries Used
+
+* Python libraries used for this project.
+
+    * [pyfiglet](https://pypi.org/project/pyfiglet/0.7/)
+
+
+
+
 
 
 
