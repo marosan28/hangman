@@ -95,6 +95,71 @@ This app has been tested manually.
 
     * [pyfiglet](https://pypi.org/project/pyfiglet/0.7/)
 
+### Unresolved Bugs
+
+-Currently no unresolved bugs found
+
+## Deployment
+
+### GitHub Pages
+
+To deploy the site to Github pages the following steps should be followed: 
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" that now has it's own dedicated tab.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. The link to your page will now show up with "Your site is published at:" 
+
+### Forking the GitHub Repository
+
+Forking the GitHub Repository means we make a copy of the original repository on our GitHub account to view and make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/) you want to fork.
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, you will see a fork button.
+3. Click on the button to create a copy. 
+4. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/) you want to deploy.
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash in your IDE.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied.
+7. Press enter and the clone should be created.
+
+## Creating an Application with Heroku
+
+- Log in to [Heroku](https://dashboard.heroku.com/)
+- Make a new app, name it and choose the region
+- Set the Reveal Config Vars
+- Set PORT 8000
+- Add build pack Python and Node.js, Python first
+- Go to the Deployment settings at the top
+- Deploy using github
+- Automatic deploys for new builds when changes are pushed to GitHub
+- Manual deploys for a new build every time the button is clicked
+- Once completed - View App button 
+
+## Credits
+
+### Code
+
+-   The hangman display came from [here](https://inventwithpython.com/invent4thed/chapter8.html)
+
+### Acknowledgements
+
+-   Slack student support.
+
+-   [Kite](https://www.youtube.com/c/KiteHQ) 
+
+
+
+
+
 
 
 
