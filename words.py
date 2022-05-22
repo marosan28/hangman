@@ -1,3 +1,4 @@
+# CREDIT:https://www.youtube.com/c/KiteHQ/videos
 list_of_words = [
     'wares',
     'soup',
