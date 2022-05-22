@@ -151,11 +151,43 @@ def hangman():
         print("---------")
 
 
+# Checks if User has correctly guessed the word or not.
+
+
+def check_game():
+    global game
+
+    if tries <= 0:
+        hangman()
+        game = True
+        print("The word was " + random_word + ". Try again!")
+    else:
+        correct_word = True
+        for character in random_word:
+            if character not in right_characters:
+                correct_word = False
+                break
+        if correct_word:
+            game = True
+            print("You win!")
+    while game is False:
+        hangman()
+        guessed_word()
+
+        if len(wrong_characters) > 0:
+            print("guessed letters: ", wrong_characters)
+        guess_character()
+        check_game()
+
+
 def main():
+    global random_word
     start()
-    guessed_word()
-    one_character()
+    pick_word()
+    hangman()
     guess_character()
+    guessed_word()
+    check_game()
 
 
 if __name__ == '__main__':
