@@ -87,8 +87,8 @@ def guess_character():
 
 
 '''
-Displays hangman depending on tries left. 
-CREDIT for hangman display: 
+Displays hangman depending on tries left.
+CREDIT for hangman display:
 https://inventwithpython.com/invent4thed/chapter8.html
 '''
 
@@ -181,6 +181,8 @@ def check_game():
             print("guessed letters: ", wrong_characters)
         guess_character()
         check_game()
+
+# Main function to start the game.
 
 
 def main():
