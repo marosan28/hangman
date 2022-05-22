@@ -1,6 +1,7 @@
 import random
 import pyfiglet
 from words import list_of_words
+from time import sleep
 
 # Defining variables
 
@@ -20,9 +21,16 @@ def start():
     print(heading)
     name = input("What is your name? ")
     print("Hello " + name + "!")
+    sleep(1.2)
     print("Welcome to Hangman!")
+    sleep(1.2)
     print("Can you guess the secret word?")
+    sleep(1.2)
     print("You have 6 tries, best of luck!")
+    sleep(1.6)
+    print("=================================================================")
+    sleep(2)
+    print("Please press ENTER to start")
 
 
 def pick_word():
