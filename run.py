@@ -53,6 +53,9 @@ def guessed_word():
     print("")
 
 
+# Function stops user from entering multiple letters at once.
+
+
 def one_character():
     global character
     right_character = False
