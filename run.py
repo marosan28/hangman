@@ -1,3 +1,11 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+import random
+from words import list_of_words
+
+# Defining variables
+
+character = ""
+right_characters = []
+wrong_characters = []
+tries = 6
+game = False
+random_word = random.choice(list_of_words)
