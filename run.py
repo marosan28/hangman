@@ -83,6 +83,74 @@ def guess_character():
         tries -= 1
 
 
+'''
+Displays hangman depending on tries left. 
+CREDIT for hangman display: 
+https://inventwithpython.com/invent4thed/chapter8.html
+'''
+
+
+def hangman():
+    global tries
+
+    if tries == 6:
+        print("-------------")
+        print(" |           |")
+        print(" | ")
+        print(" | ")
+        print(" | ")
+        print(" | ")
+        print("---------")
+    elif tries == 5:
+        print("-------------")
+        print(" |           |")
+        print(" |           O")
+        print(" | ")
+        print(" | ")
+        print(" | ")
+        print("---------")
+    elif tries == 4:
+        print("-------------")
+        print(" |           |")
+        print(" |           O")
+        print(" |           |")
+        print(" | ")
+        print(" | ")
+        print("---------")
+    elif tries == 3:
+        print("-------------")
+        print(" |           |")
+        print(" |           O")
+        print(" |           |")
+        print(" |          /")
+        print(" | ")
+        print("---------")
+    elif tries == 2:
+        print("-------------")
+        print(" |           |")
+        print(" |           O")
+        print(" |           |")
+        print(" |          / \\")
+        print(" | ")
+        print("---------")
+    elif tries == 1:
+        print("-------------")
+        print(" |           |")
+        print(" |           O")
+        print(" |           |\\")
+        print(" |          / \\")
+        print(" | ")
+        print("---------")
+    elif tries == 0:
+        print("-------------")
+        print(" |           |")
+        print(" |           O")
+        print(" |          /|\\")
+        print(" |          / \\")
+        print(" | ")
+        print("---------")
+
+
 def main():
     start()
     guessed_word()
