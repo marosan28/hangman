@@ -163,7 +163,7 @@ def check_game():
     if tries <= 0:
         hangman()
         game = True
-        print("The word was " + random_word + ". Try again!")
+        print("The word was " + random_word + ". You lost!")
     else:
         correct_word = True
         for character in random_word:
