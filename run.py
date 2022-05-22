@@ -19,7 +19,7 @@ random_word = random.choice(list_of_words)
 def start():
     heading = pyfiglet.figlet_format("HANGMAN")
     print(heading)
-    name = input("What is your name? ")
+    name = input("What is your name?\n")
     print("Hello " + name + "!")
     sleep(1.2)
     print("Welcome to Hangman!")
@@ -61,7 +61,7 @@ def one_character():
     right_character = False
 
     while right_character is False and tries > 0:
-        character = input("Please enter a letter: ").lower()
+        character = input("Please enter a letter: \n").lower()
         if character in right_characters or character in wrong_characters:
             print("You have already guessed the letter " + character)
         elif character.isalpha():
